@@ -101,16 +101,16 @@ color: #434455;
 .hero-btn:focus {
     background-color:#404bbf;
 }
-/* section 1 */
-.Strategy-section {
+/* section  */
+.strategy-section {
 }
 .section-title {
 }
-.Strategy-list {
+.strategy-list {
 }
-.Strategy-link {
+.strategy-link {
 }
-.Strategy-title,h3 {
+.strategy-title,h3 {
 font-weight: 500;
 font-size: 20px;
 
@@ -118,7 +118,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.Strategy-text {
+.strategy-text {
 font-weight: 400;
 font-size: 16px;
 
