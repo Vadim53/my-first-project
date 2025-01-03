@@ -57,10 +57,9 @@ color: #2e2f42;
 
 }
 .address-link {
- font-style: normal;
 }
 .nav-address {
-
+    font-style: normal;
 }
 .nav-address-link {
     font-weight: 400;
