@@ -181,6 +181,7 @@ color: #2e2f42;
 .our-prt-list {
 }
 .our-styles {
+    background: url("path_to_image");
 }
 .our-title {
     font-weight: 500;
