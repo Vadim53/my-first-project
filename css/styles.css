@@ -130,8 +130,8 @@ color: #434455;
 .team {
     background: #f4f4fd;
 }
-.main-team {
-    
+.main-our-team {
+    text-transform: capitalize;
     font-weight: 700;
 font-size: 36px;
 
