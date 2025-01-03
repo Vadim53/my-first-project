@@ -168,6 +168,7 @@ color: #434455;
 /* our team */
 
 .our-prt-section {
+    text-transform: capitalize;
 }
 .our-prt {
     font-weight: 700;
@@ -180,6 +181,7 @@ text-align: center;
 color: #2e2f42;
 }
 .our-prt-list {
+    text-transform: capitalize;
 }
 .our-styles {
     background: url("path_to_image");
