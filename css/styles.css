@@ -149,6 +149,7 @@ color: #2e2f42;
     background: url("path_to_image");
 }
 .team-title {
+    text-transform: capitalize;
     font-weight: 500;
 font-size: 20px;
 
