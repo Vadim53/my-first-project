@@ -184,6 +184,7 @@ color: #2e2f42;
     text-transform: capitalize;
 }
 .our-styles {
+    text-transform: capitalize;
     background: url("path_to_image");
 }
 .our-title {
