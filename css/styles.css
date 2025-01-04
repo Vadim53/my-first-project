@@ -141,6 +141,7 @@ line-height: 1.5;
     margin: 0 auto;
     border:none;
   height: auto;
+  cursor: pointer;
     
 }
 .hero-btn:hover,
