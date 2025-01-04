@@ -32,13 +32,13 @@ button {
 .header-page .container {
     display: flex;
     justify-content: space-between;
-
+    border-bottom: 1px solid #e7e9fc
 }
 .nav-page {
     display: flex;
     align-items: center;
     margin-right: auto;
-    border-bottom: 1px solid #e7e9fc
+   
     
 }
 
