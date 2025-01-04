@@ -31,14 +31,13 @@ button {
 }
 /* header*/
 .header-page  {
-    display: flex;
-    justify-content: space-between;
     border-bottom: 1px solid #e7e9fc
 }
 .container-header {
     display: flex;
     justify-content: space-between;
-    }
+}
+    
 .nav-page {
     display: flex;
     align-items: center;
