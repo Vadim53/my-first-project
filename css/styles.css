@@ -30,7 +30,7 @@ button {
    
 }
 /* header*/
-.header-page   {
+.header-page .container  {
     display: flex;
     justify-content: space-between;
 }
