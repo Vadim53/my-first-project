@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6,p {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
+    
 }
 ul,
 ol 
@@ -35,6 +35,10 @@ button {
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc
 }
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    }
 .nav-page {
     display: flex;
     align-items: center;
