@@ -29,7 +29,7 @@ button {
    
 }
 /* header*/
-.header-page .container {
+.header-page  {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc
