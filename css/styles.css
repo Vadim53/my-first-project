@@ -7,19 +7,39 @@ body{
 a {
 text-decoration: none;
 }
-
-ul,ol {
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ul,
+ol 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none ;
 }
 button {
-    cursor: pointer;
+   
 }
 /* header*/
-.header-page{
+.header-page,.container {
+    display: flex;
+    justify-content: space-between;
+    
 
 }
 .nav-page {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
 
+    
 }
 
 .logo {
@@ -30,12 +50,14 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
 }
 .logo-style {
 color: #2e2f42 ;
 }
 .nav-list {
-
+display: flex;
+gap: 40px;
 }
 .nav-item {
 
@@ -47,16 +69,25 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-top:24px ;
+padding-bottom: 24px ;
+display: block;
 }
 .nav-item-link:hover,
 .nav-item-link:focus {
     color: #404bbf;
 }
 
-.address {
-    font-style: normal;
+.address-header {
+    padding: 24px 0;
+  display: block;
+    
 }
+   
 .address-link {
+    display: flex;
+    gap: 40px;
+    
 }
 .nav-address {
 }
@@ -67,6 +98,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-address-link:hover,
 .nav-address-link:focus {
@@ -75,6 +108,15 @@ color: #434455;
 /*  */
 .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
+    display: flex;
+    text-align: center;
+}
+.hero, .Effective-cont {
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 496px;
+    padding-right:496px;
 }
 .hero-title {
     font-weight: 700;
@@ -83,15 +125,24 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    width: 496px;
+    margin: 0 auto;
+   text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
+   
 .hero-btn {
     font-weight: 500;
     font-size: 16px;
-    
     line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #4d5ae5
+    background-color: #4d5ae5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    width: 169px;
+    
     
 }
 .hero-btn:hover,
@@ -100,12 +151,37 @@ color: #434455;
 }
 /* section  */
 .strategy-section {
+    gap: 24px;
+    padding: 120px 0;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-.section-title {
+.section-title,.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .strategy-list {
+    display: flex;
+    gap: 24px;
+   align-items: center;
+
 }
 .strategy-link {
+    
+    flex-basis: calc((100% - 3 * 72px) / 4) ;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
 }
 .strategy-title,h3 {
 font-weight: 500;
@@ -114,6 +190,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .strategy-text {
 font-weight: 400;
@@ -128,6 +205,8 @@ color: #434455;
 /* our team */
 .team {
     background: #f4f4fd;
+    width: 120px 0;
+
 }
 .main-our-team {
     text-transform: capitalize;
@@ -138,14 +217,26 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
+
+;
 }
 .team-list {
+    margin: 0 auto;
+    gap: 24px;
+    display: flex;
+ 
 }
 .team-main-link {
     background-color: #ffffff;
+    
 }
 .avatar {
     background: url("path_to_image");
+  
+}
+.container-team {
+    padding: 32px 0;
 }
 .team-title {
     text-transform: capitalize;
@@ -183,6 +274,9 @@ text-align: center;
 color: #2e2f42;
 }
 .our-prt-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
     
 }
 .our-styles {
@@ -206,6 +300,17 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.portfolio-content {
+    padding: 32px 16px;
+    text-align: left;
+}
+.our-port-list {
+    border-bottom: 1px #e7e9fc;
+    border-left: 1px  #e7e9fc;;
+    border-right: 1px #e7e9fc;;
+    overflow: hidden ;
+    width: calc((100% - 48px) / 3);
 }
 
 /* footer */
