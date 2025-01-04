@@ -302,6 +302,7 @@ color: #434455;
 .portfolio-content {
     padding: 32px 16px;
     text-align: left;
+    border: 1px solid #e7e9fc;
 }
 .our-port-list {
     width: calc((100% - 48px) / 3);
