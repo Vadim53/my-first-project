@@ -4,6 +4,7 @@ body{
     background-color: #ffffff;
 }
 
+
 a {
 text-decoration: none;
 }
@@ -223,6 +224,7 @@ margin-bottom: 72px;
 }
 .avatar {
     background: url("path_to_image");
+    display: block
   
 }
 .container-team {
@@ -273,8 +275,8 @@ margin-bottom: 72px;
     
 }
 .our-styles {
-    
     background: url("path_to_image");
+    display: block
 }
 .our-title {
     font-weight: 500;
