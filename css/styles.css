@@ -141,7 +141,7 @@ line-height: 1.5;
     margin: 0 auto;
     border:none;
   height: 56px;
-  cursor: pointer;
+  
     
 }
 .hero-btn:hover,
@@ -303,6 +303,7 @@ color: #434455;
     padding: 32px 16px;
     text-align: left;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .our-port-list {
     width: calc((100% - 48px) / 3);
