@@ -116,6 +116,7 @@ line-height: 1.5;
     background-color: #2e2f42;
     padding: 188px 0;
     text-align: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 .hero, .Effective-cont {
     
@@ -179,8 +180,17 @@ line-height: 1.5;
 .strategy-link {
     
     flex-basis: calc((100% - 3 * 24px) / 4) ;
-    padding: 0;
-    margin: 0;
+    
+}
+.div-strategy-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 .strategy-title,h3 {
 font-weight: 500;
@@ -258,6 +268,30 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+.ul-team-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.li-our-team {
+    width: 40px;
+    height: 40px;
+}
+.a-team-list {
+    background-color: #4d5ae5;
+    gap: 24px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-our-team {
+    fill: #f4f4fd;
+}
 /* our team */
 
 .our-prt-section {
@@ -281,6 +315,32 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     gap: 48px 24px;
     
+}
+.our-port-link {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.div-our-prt {
+    position: relative;
+    overflow: hidden;
+}
+.p-our-section {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.our-port-link:hover .p-our-section {
+    transform: translateY(0%);
 }
 .our-styles {
     background: url("path_to_image");
@@ -319,6 +379,9 @@ color: #434455;
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.div-footion {
+    margin-right: 120px;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -364,5 +427,31 @@ text-transform: uppercase;
 color: #4d5ae5;
 margin-bottom: 16px;
 display: inline-block;
+}
+.p-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.li-footer {
+    width: 40px;
+    height: 40px;
+}
+.a-footer {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-footer {
+    fill: #f4f4fd;
 }
 /* footer */
