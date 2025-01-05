@@ -271,11 +271,17 @@ color: #434455;
 .ul-team-list {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 .li-our-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
+    border-radius: 50px;
+    background-color: #4d5ae5;
 }
 .a-team-list {
     background-color: #4d5ae5;
