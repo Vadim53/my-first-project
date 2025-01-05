@@ -38,10 +38,9 @@ button {
 }
     
 .nav-page {
-    display: flex;
     align-items: center;
     margin-right: auto;
-   
+    border-bottom: 1px solid #e7e9fc
     
 }
 
