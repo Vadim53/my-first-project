@@ -36,12 +36,15 @@ button {
     display: flex;
     justify-content: space-between;
 }
+.header-page {
+    border-bottom: 1px solid #e7e9fc
+}
     
 .nav-page {
     align-items: center;
     margin-right: auto;
     display: flex;
-    border-bottom: 1px solid #e7e9fc
+    
     
 }
 
