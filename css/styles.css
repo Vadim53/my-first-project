@@ -153,8 +153,8 @@ line-height: 1.5;
     display: block;
     margin: 0 auto;
     border:none;
-  height: 56px;
-  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
