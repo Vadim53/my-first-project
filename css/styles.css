@@ -43,16 +43,7 @@ button {
     border-bottom: 1px solid #e7e9fc
 
 }
-
-
-.header-page:hover,
-.header-page:focus {
-    box-shadow: 0px 2px 1px  rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
-}
-
-
-    
+   
 .nav-page {
     align-items: center;
     margin-right: auto;
@@ -123,6 +114,8 @@ position: relative;
 .nav-item-link:hover,
 .nav-item-link:focus {
     color: #404bbf;
+    box-shadow: 0px 2px 1px  rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 
@@ -531,9 +524,11 @@ display: inline-block;
 .a-footer:hover, 
 .a-footer:focus {
     background-color: #31d0aa;
+
 }
 .svg-footer {
     fill: #f4f4fd;
+
 }
 
 /* footer */
