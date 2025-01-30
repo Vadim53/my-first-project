@@ -365,11 +365,12 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .our-port-link {
-    width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .div-our-prt {
     position: relative;
