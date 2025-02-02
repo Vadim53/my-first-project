@@ -376,7 +376,7 @@ margin-bottom: 72px;
 .div-our-prt {
     position: relative;
     overflow: hidden;
-    transform: translateY(0%);
+
 }
 .p-our-section {
     position: absolute;
@@ -393,8 +393,8 @@ margin-bottom: 72px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.div-our-prt, .p-our-section:hover{
-    
+.div-our-prt:hover{
+    transform: translateY(0%);
 }
 .our-styles {
     background: url("path_to_image");
