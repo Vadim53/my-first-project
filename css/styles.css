@@ -362,7 +362,7 @@ color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 72px;
 }
-.our-prt-list {
+.our-prt-title {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
