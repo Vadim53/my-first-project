@@ -392,7 +392,7 @@ margin-bottom: 72px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.our-prt-title, .p-our-section:hover{
+.div-our-prt, .p-our-section:hover{
     transform: translateY(0%);
 }
 .our-styles {
