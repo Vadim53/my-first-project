@@ -803,6 +803,7 @@ display: inline-block;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer
 }
 .modal-icons-btn {
     fill: #ffffff;
