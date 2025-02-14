@@ -143,8 +143,10 @@ height: 120px;
 .modal-checkbox-type {
     font-family: inherit;
 }
-.modal-checkbox-type:checked + .label > .castum-checkbox{
-color: #4d5ae5;
+.modal-checkbox-type:checked + .modal-label-checkbox  .castum-checkbox{
+border: none;
+fill: #f4f4fd;
+background-color: #404bbf;
 }
 .visually-hidden {
     position: absolute;
