@@ -137,6 +137,9 @@ height: 120px;
 .modal-checkbox-type {
     font-family: inherit;
 }
+.modal-checkbox-type:checked + .label > .castum-checkbox{
+color: #4d5ae5;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -741,7 +744,7 @@ display: inline-block;
     fill: #f4f4fd;
 
 }
-.form-footer-next {
+.form-footer-next .container {
     
     margin-left: 80px;
     min-width: 453px;
