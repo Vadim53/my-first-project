@@ -52,6 +52,10 @@ body{
     border: none;
     fill: #ffffff
 }
+.icon-close:hover,
+.icon-close:focus {
+    fill: #ffffff;
+}
 .icon-close {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
