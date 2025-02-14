@@ -105,6 +105,7 @@ body{
 }
 .form-user-input:focus-within .form-user-icnop {
     fill: #4D5AE5;
+    border: none;
 }
 .form-user-icnop {
     position: absolute;
