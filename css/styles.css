@@ -246,6 +246,7 @@ button, input, optgroup, select, textarea {
     font-size: 100%;
     line-height: 1.15;
     line-height: inherit;
+    fill: #4D5AE5; 
 }
 /* header*/
 .header  {
