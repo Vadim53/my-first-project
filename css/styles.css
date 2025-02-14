@@ -30,11 +30,12 @@ body{
     padding: 72px 24px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close {
+.modal-close-link {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
+    cursor: pointer;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -45,8 +46,8 @@ body{
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close:hover,
-.modal-close:focus {
+.modal-close-link:hover,
+.modal-close-link:focus {
     background-color: #404bbf; 
     border: none;
     fill: #ffffff
@@ -246,7 +247,7 @@ button, input, optgroup, select, textarea {
     font-size: 100%;
     line-height: 1.15;
     line-height: inherit;
-    fill: #4D5AE5; 
+   
 }
 /* header*/
 .header  {
