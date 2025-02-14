@@ -70,8 +70,8 @@ body{
 .form-wrapper-cont {
     margin-bottom: 8px;
 }
-.form-wrapper-cont:hover,
-.form-wrapper-cont:focus {
+.form-user-input:hover,
+.form-user-input:focus {
     border-color: #4D5AE5;
 }
 .form-user-label {
