@@ -89,6 +89,9 @@ body{
     display: block;
     margin-bottom: 4px;
 }
+.modal-textarea:focus {
+    border-color: #4D5AE5;
+}
 .form-user-icon-wrapper {
     position: relative;
 }
