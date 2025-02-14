@@ -788,22 +788,23 @@ display: inline-block;
     background-color: transparent;
 }
 .footer-btn {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    border-radius: 50%;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
-    width: 24px;
-    height: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    border: none;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0;
-    transition: background-color 250mscubic-bezier(0.4, 0, 0.2, 1), border 250mscubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-icons-btn {
     fill: #ffffff;
