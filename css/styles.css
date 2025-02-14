@@ -202,8 +202,8 @@ color: #4d5ae5;
     cursor: pointer
 }
 .form-btn-submit:hover,
-.form-btn-submit:focus{
-    background-color:#404bbf;
+.form-btn-submit:focus {
+    background-color: #404bbf;
 }
 
 
