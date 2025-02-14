@@ -103,6 +103,9 @@ body{
     outline: transparent;
     
 }
+.form-user-input:focus{
+    fill: #4D5AE5;
+}
 .form-user-icnop {
     position: absolute;
     left: 16px;
