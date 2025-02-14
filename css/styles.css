@@ -52,7 +52,8 @@ body{
     border: none;
     fill: #ffffff
 }
-.modal-close-link:hover .icon-close {
+.modal-close-link:hover .icon-close,
+.modal-close-link:focus .icon-close {
     fill: #ffffff;
 }
 .icon-close {
